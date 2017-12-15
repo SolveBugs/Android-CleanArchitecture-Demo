@@ -17,6 +17,11 @@ package com.fernandocejas.android10.sample.data.repository.datasource;
 
 import com.fernandocejas.android10.sample.data.ApplicationTestCase;
 import com.fernandocejas.android10.sample.data.cache.UserCache;
+import com.fernandocejas.android10.sample.data.user.repository.datasource.CloudUserDataStore;
+import com.fernandocejas.android10.sample.data.user.repository.datasource.DiskUserDataStore;
+import com.fernandocejas.android10.sample.data.user.repository.datasource.UserDataStore;
+import com.fernandocejas.android10.sample.data.user.repository.datasource.UserDataStoreFactory;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

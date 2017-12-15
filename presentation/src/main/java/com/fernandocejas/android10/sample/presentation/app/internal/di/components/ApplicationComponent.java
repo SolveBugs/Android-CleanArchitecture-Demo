@@ -18,7 +18,7 @@ package com.fernandocejas.android10.sample.presentation.app.internal.di.componen
 import android.content.Context;
 import com.fernandocejas.android10.sample.domain.executor.PostExecutionThread;
 import com.fernandocejas.android10.sample.domain.executor.ThreadExecutor;
-import com.fernandocejas.android10.sample.domain.repository.UserRepository;
+import com.fernandocejas.android10.sample.domain.user.repository.UserRepository;
 import com.fernandocejas.android10.sample.presentation.app.internal.di.modules.ApplicationModule;
 import com.fernandocejas.android10.sample.presentation.app.activity.BaseActivity;
 import dagger.Component;

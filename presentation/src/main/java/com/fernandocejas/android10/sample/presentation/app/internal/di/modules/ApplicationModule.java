@@ -19,10 +19,10 @@ import android.content.Context;
 import com.fernandocejas.android10.sample.data.cache.UserCache;
 import com.fernandocejas.android10.sample.data.cache.UserCacheImpl;
 import com.fernandocejas.android10.sample.data.executor.JobExecutor;
-import com.fernandocejas.android10.sample.data.repository.UserDataRepository;
+import com.fernandocejas.android10.sample.data.user.repository.UserDataRepository;
 import com.fernandocejas.android10.sample.domain.executor.PostExecutionThread;
 import com.fernandocejas.android10.sample.domain.executor.ThreadExecutor;
-import com.fernandocejas.android10.sample.domain.repository.UserRepository;
+import com.fernandocejas.android10.sample.domain.user.repository.UserRepository;
 import com.fernandocejas.android10.sample.presentation.app.AndroidApplication;
 import com.fernandocejas.android10.sample.presentation.app.UIThread;
 

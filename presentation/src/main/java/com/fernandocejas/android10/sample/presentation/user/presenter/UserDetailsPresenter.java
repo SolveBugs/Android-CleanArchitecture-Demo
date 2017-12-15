@@ -16,12 +16,12 @@
 package com.fernandocejas.android10.sample.presentation.user.presenter;
 
 import android.support.annotation.NonNull;
-import com.fernandocejas.android10.sample.domain.User;
+import com.fernandocejas.android10.sample.domain.user.User;
 import com.fernandocejas.android10.sample.domain.exception.DefaultErrorBundle;
 import com.fernandocejas.android10.sample.domain.exception.ErrorBundle;
 import com.fernandocejas.android10.sample.domain.interactor.DefaultObserver;
-import com.fernandocejas.android10.sample.domain.interactor.GetUserDetails;
-import com.fernandocejas.android10.sample.domain.interactor.GetUserDetails.Params;
+import com.fernandocejas.android10.sample.domain.user.interactor.GetUserDetails;
+import com.fernandocejas.android10.sample.domain.user.interactor.GetUserDetails.Params;
 import com.fernandocejas.android10.sample.presentation.app.exception.ErrorMessageFactory;
 import com.fernandocejas.android10.sample.presentation.app.internal.di.PerActivity;
 import com.fernandocejas.android10.sample.presentation.app.presenter.Presenter;

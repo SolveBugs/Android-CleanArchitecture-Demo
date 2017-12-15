@@ -15,7 +15,7 @@
  */
 package com.fernandocejas.android10.sample.data.cache;
 
-import com.fernandocejas.android10.sample.data.entity.UserEntity;
+import com.fernandocejas.android10.sample.data.user.entity.UserEntity;
 import io.reactivex.Observable;
 
 /**

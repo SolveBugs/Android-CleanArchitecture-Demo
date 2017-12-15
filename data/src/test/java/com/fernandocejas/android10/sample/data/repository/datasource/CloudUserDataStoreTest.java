@@ -16,8 +16,10 @@
 package com.fernandocejas.android10.sample.data.repository.datasource;
 
 import com.fernandocejas.android10.sample.data.cache.UserCache;
-import com.fernandocejas.android10.sample.data.entity.UserEntity;
+import com.fernandocejas.android10.sample.data.user.entity.UserEntity;
 import com.fernandocejas.android10.sample.data.net.RestApi;
+import com.fernandocejas.android10.sample.data.user.repository.datasource.CloudUserDataStore;
+
 import io.reactivex.Observable;
 import org.junit.Before;
 import org.junit.Test;

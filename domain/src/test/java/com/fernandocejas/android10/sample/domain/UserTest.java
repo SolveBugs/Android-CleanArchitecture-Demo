@@ -15,6 +15,8 @@
  */
 package com.fernandocejas.android10.sample.domain;
 
+import com.fernandocejas.android10.sample.domain.user.User;
+
 import org.junit.Before;
 import org.junit.Test;
 

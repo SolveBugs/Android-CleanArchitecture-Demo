@@ -15,11 +15,12 @@
  */
 package com.fernandocejas.android10.sample.data.repository;
 
-import com.fernandocejas.android10.sample.data.entity.UserEntity;
-import com.fernandocejas.android10.sample.data.entity.mapper.UserEntityDataMapper;
-import com.fernandocejas.android10.sample.data.repository.datasource.UserDataStore;
-import com.fernandocejas.android10.sample.data.repository.datasource.UserDataStoreFactory;
-import com.fernandocejas.android10.sample.domain.User;
+import com.fernandocejas.android10.sample.data.user.entity.UserEntity;
+import com.fernandocejas.android10.sample.data.user.entity.mapper.UserEntityDataMapper;
+import com.fernandocejas.android10.sample.data.user.repository.UserDataRepository;
+import com.fernandocejas.android10.sample.data.user.repository.datasource.UserDataStore;
+import com.fernandocejas.android10.sample.data.user.repository.datasource.UserDataStoreFactory;
+import com.fernandocejas.android10.sample.domain.user.User;
 import io.reactivex.Observable;
 import java.util.ArrayList;
 import java.util.List;

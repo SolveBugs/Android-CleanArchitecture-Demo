@@ -13,12 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fernandocejas.android10.sample.domain.interactor;
+package com.fernandocejas.android10.sample.domain.user.interactor;
 
-import com.fernandocejas.android10.sample.domain.User;
+import com.fernandocejas.android10.sample.domain.interactor.UseCase;
+import com.fernandocejas.android10.sample.domain.user.User;
 import com.fernandocejas.android10.sample.domain.executor.PostExecutionThread;
 import com.fernandocejas.android10.sample.domain.executor.ThreadExecutor;
-import com.fernandocejas.android10.sample.domain.repository.UserRepository;
+import com.fernandocejas.android10.sample.domain.user.repository.UserRepository;
 import com.fernandocejas.arrow.checks.Preconditions;
 import io.reactivex.Observable;
 import javax.inject.Inject;
@@ -38,7 +39,8 @@ public class GetUserDetails extends UseCase<User, GetUserDetails.Params> {
     this.userRepository = userRepository;
   }
 
-  @Override Observable<User> buildUseCaseObservable(Params params) {
+  @Override
+  public Observable<User> buildUseCaseObservable(Params params) {
     Preconditions.checkNotNull(params);
     return this.userRepository.user(params.userId);
   }

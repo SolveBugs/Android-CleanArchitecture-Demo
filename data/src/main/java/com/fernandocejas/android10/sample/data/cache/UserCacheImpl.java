@@ -17,7 +17,7 @@ package com.fernandocejas.android10.sample.data.cache;
 
 import android.content.Context;
 import com.fernandocejas.android10.sample.data.cache.serializer.Serializer;
-import com.fernandocejas.android10.sample.data.entity.UserEntity;
+import com.fernandocejas.android10.sample.data.user.entity.UserEntity;
 import com.fernandocejas.android10.sample.data.exception.UserNotFoundException;
 import com.fernandocejas.android10.sample.domain.executor.ThreadExecutor;
 import io.reactivex.Observable;

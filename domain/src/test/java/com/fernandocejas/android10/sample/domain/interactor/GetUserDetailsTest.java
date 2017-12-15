@@ -17,8 +17,9 @@ package com.fernandocejas.android10.sample.domain.interactor;
 
 import com.fernandocejas.android10.sample.domain.executor.PostExecutionThread;
 import com.fernandocejas.android10.sample.domain.executor.ThreadExecutor;
-import com.fernandocejas.android10.sample.domain.interactor.GetUserDetails.Params;
-import com.fernandocejas.android10.sample.domain.repository.UserRepository;
+import com.fernandocejas.android10.sample.domain.user.interactor.GetUserDetails;
+import com.fernandocejas.android10.sample.domain.user.interactor.GetUserDetails.Params;
+import com.fernandocejas.android10.sample.domain.user.repository.UserRepository;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
